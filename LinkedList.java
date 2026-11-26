@@ -47,6 +47,11 @@ class LL {
 
 public class LinkedList {
     public static void main(String[] args) {
-        
+        LL list = new LL();
+
+        list.insertAtBeginning(0);
+        list.insertAtEnd(2);
+
+        list.display();
     }
 }
